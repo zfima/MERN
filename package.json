@@ -1,5 +1,5 @@
 {
-  "name": "mern",
+  "name": "mern_course",
   "version": "1.0.0",
   "description": "MERN Stack",
   "main": "app.js",
@@ -14,6 +14,7 @@
     "MERN",
     "Mongo",
     "Express",
+    "React",
     "Node"
   ],
   "author": "Efim Zabarsky <zzfima@gmail.com>",
