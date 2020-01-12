@@ -1,0 +1,25 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "MERN Stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zfima/MERN.git"
+  },
+  "keywords": [
+    "MERN",
+    "Mongo",
+    "Express",
+    "Node"
+  ],
+  "author": "Efim Zabarsky <zzfima@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zfima/MERN/issues"
+  },
+  "homepage": "https://github.com/zfima/MERN#readme"
+}
