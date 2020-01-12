@@ -4,7 +4,8 @@
   "description": "MERN Stack",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/zfima/MERN/issues"
   },
-  "homepage": "https://github.com/zfima/MERN#readme"
+  "homepage": "https://github.com/zfima/MERN#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  }
 }
