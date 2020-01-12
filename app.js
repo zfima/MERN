@@ -1,5 +1,7 @@
-console.log('App.js started.')
+const express = require('express')
+const app = express()
 
+const config = require('config')
 
-
-console.log('App.js finished.')
+let port = config.get('port') || 5000
+app.listen(port, () => console.log('App has been started'))
