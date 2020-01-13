@@ -7,8 +7,11 @@ const mongoUri = config.get('mongoUri')
 
 async function start() {
     try {
-        await mongoose.connect((mongoUri), {
-            useNewUrlParser: true
+        await mongoose.connect((mongoUri), { 
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            useCreateIndex: true,
+            connectTimeoutMS: 1000
         })
 
         app.listen(port, () => console.log(`App has been started on port ${port}`))
